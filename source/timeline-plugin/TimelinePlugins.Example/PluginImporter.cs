@@ -51,6 +51,8 @@ namespace TimelinePlugins.Example
             activity.SourceId = id;
             activity.Group = group;
             activity.DisplayName = displayName;
+            activity.DetailsDescription = "Additional data in details";
+            activity.TooltipDescription = "Additional data in tooltip";
             return activity;
         }
     }
