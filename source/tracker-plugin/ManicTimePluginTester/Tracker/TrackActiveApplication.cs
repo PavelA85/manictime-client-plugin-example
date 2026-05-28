@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Text;
 using System.Timers;
@@ -7,6 +7,8 @@ using Finkit.ManicTime.Common;
 using ManicTime.Client.Tracker.EventTracking.Publishers.ApplicationTracking;
 using Plugins.Outlook;
 using Plugins.Notepad;
+using Plugins.Terminal;
+using Plugins.AIApps;
 
 namespace ManicTimePluginTester.Tracker
 {
@@ -22,7 +24,9 @@ namespace ManicTimePluginTester.Tracker
             _documentRetreivers = new IDocumentRetreiver[]
             {
                 new NotepadFileRetreiver(),
-                new OutlookRetreiver()
+                new OutlookRetreiver(),
+                new TerminalRetreiver(),
+                new AIAppRetreiver()
             };
 
             pollingTimer = new Timer();

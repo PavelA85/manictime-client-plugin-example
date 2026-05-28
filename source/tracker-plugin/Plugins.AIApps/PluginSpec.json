@@ -1,0 +1,9 @@
+{
+  "Id": "ManicTime.DocumentTracker.AIApps",
+  "Version": "2025.2.0.0",
+  "Type": "DocumentTracker",
+  "AssemblyName": "Plugins.AIApps.dll",
+  "Name": "Document timeline: AI Desktop Apps",
+  "Description": "Track chats, projects, and files in Cursor, Claude Desktop, ChatGPT, Codex, and other AI tools",
+  "MinHostVersion": "2025.2"
+}

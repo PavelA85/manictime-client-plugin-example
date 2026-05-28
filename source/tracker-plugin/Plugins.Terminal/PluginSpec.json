@@ -1,0 +1,9 @@
+{
+  "Id": "ManicTime.DocumentTracker.Terminal",
+  "Version": "2025.2.0.0",
+  "Type": "DocumentTracker",
+  "AssemblyName": "Plugins.Terminal.dll",
+  "Name": "Document timeline: Terminal",
+  "Description": "Track terminal commands, paths, and CLI activity",
+  "MinHostVersion": "2025.2"
+}

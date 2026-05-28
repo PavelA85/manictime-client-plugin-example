@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
 	<TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
@@ -28,6 +28,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Plugins.Notepad\Plugins.Notepad.csproj" />
     <ProjectReference Include="..\Plugins.Outlook\Plugins.Outlook.csproj" />
+    <ProjectReference Include="..\Plugins.Terminal\Plugins.Terminal.csproj" />
+    <ProjectReference Include="..\Plugins.AIApps\Plugins.AIApps.csproj" />
   </ItemGroup>
 
   <ItemGroup>
